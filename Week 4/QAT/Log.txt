@@ -1,0 +1,24 @@
+
+Training the Quantized Model :
+
+Epoch: 000 Train Loss: 2.195 Train Acc: 0.318 
+Epoch: 001 Train Loss: 1.312 Train Acc: 0.531 
+Epoch: 002 Train Loss: 1.056 Train Acc: 0.628 
+Epoch: 003 Train Loss: 0.904 Train Acc: 0.686 
+Epoch: 004 Train Loss: 0.821 Train Acc: 0.714 
+Epoch: 005 Train Loss: 0.757 Train Acc: 0.737 
+Epoch: 006 Train Loss: 0.706 Train Acc: 0.754 
+Epoch: 007 Train Loss: 0.667 Train Acc: 0.768 
+Epoch: 008 Train Loss: 0.634 Train Acc: 0.780 
+Epoch: 009 Train Loss: 0.609 Train Acc: 0.789 
+
+Comparision Metrics :
+
+Unquantized Model size in MB: 46.829017
+Quantized Model size in MB:  11.924209
+
+FP32 CPU Inference Latency: 7.73 ms / sample
+INT8 CPU Inference Latency: 5.07 ms / sample
+
+Unquantized model accuracy is 0.79810
+Quantized Model accuracy is 0.78690 
